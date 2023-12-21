@@ -1,0 +1,24 @@
+$font-stack: cursive;
+$primary-color: lightblue;
+$seconday-color: lightcoral;
+
+.card {
+    font-family: $font-stack;
+
+    img {
+        border-radius: 50%;
+    }
+
+    .cardInfos {
+        background-color: lightcyan;
+        border-radius: 5rem;
+
+        h1 {
+            color: $primary-color;
+        }
+    
+        h2 {
+            color: $seconday-color;
+        }
+    }
+}
